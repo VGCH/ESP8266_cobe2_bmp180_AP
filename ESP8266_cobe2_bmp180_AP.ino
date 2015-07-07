@@ -14,9 +14,9 @@
 #define DHTTYPE DHT22   // DHT 22 
 DHT dht(DHTPIN, DHTTYPE,15);
 
-const char* ssid = "MyMEGANET"; // Имя сети для подключения в режиме клиента
+const char* ssid = "Your Wi-Fi Net"; // Имя сети для подключения в режиме клиента
 const char* ssid2 = "Wi-Fi-METEOSTATION(1313131313)"; // Имя сети в режиме точки доступа
-const char* password = "1212121212"; // Пароль сети в режиме клиента
+const char* password = "Your pass"; // Пароль сети в режиме клиента
 const char* password2 = "1313131313"; // Пароль сети в режиме точки доступа
 
 #define ONE_WIRE_BUS 14  // DS18B20 pin GPIO14
